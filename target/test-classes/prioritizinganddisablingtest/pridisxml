@@ -1,0 +1,20 @@
+<test name="prioritizing">
+        <classes>
+            <class name="prioritizinganddisablingtest.DisableTests">
+                <methods>
+                    <include name="TestA"/>
+                    <include name="TestB"/>
+                    <include name="TestC"/>
+                    <include name="TestD"/>
+                </methods>
+            </class>
+            <class name="prioritizinganddisablingtest.PriorityExample">
+                <methods>
+                    <include name="TestA"/>
+                    <include name="TestB"/>
+                    <include name="TestC"/>
+                    <include name="TestD"/>
+                </methods>
+            </class>
+        </classes>
+    </test>

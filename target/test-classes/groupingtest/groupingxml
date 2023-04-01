@@ -1,0 +1,12 @@
+<test name = "Grouping">
+        <groups>
+            <run>
+                <include name="Sanity"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+        <class name="groupingtest.GroupingExample">
+        </class>
+        </classes>
+    </test>

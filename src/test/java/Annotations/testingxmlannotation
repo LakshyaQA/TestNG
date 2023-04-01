@@ -1,0 +1,23 @@
+<test name = "Annotation">
+        <classes>
+            <class name="Annotations.BeforeAfterClass">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+
+            <class name="Annotations.BeforeAfterTest">
+                <methods>
+                    <include name="Test3"/>
+                    <include name="Test4"/>
+                </methods>
+            </class>
+            <class name="Annotations.BeforeAfterSuite">
+                <methods>
+                    <include name="beforeSuite"/>
+                    <include name="afterSuite"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
